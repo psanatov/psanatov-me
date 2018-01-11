@@ -1,0 +1,41 @@
+/*
+*  Fonts
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/*
+*  Basic Reset
+*/
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/**
+ * Basics Styles
+ */
+
+a {
+  text-decoration: none;
+  color: #3498db;
+}
+
+a:hover {
+  color: #2980b9;
+}
+
+h2 {
+  line-height: 1.0;
+  margin-bottom: 1.6rem;
+}
